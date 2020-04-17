@@ -1,4 +1,5 @@
 import React from 'react';
+import PokemonList from 'C:/Users/User/desktop/lambdaflex/Sprint-Challenge-React-Wars/starwars/src/PokemonList.js'
 import './App.css';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
+      <PokemonList />
     </div>
   );
 }
