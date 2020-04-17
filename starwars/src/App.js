@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import RickMortyList from './RickMortyList'
+import { Alert } from 'reactstrap';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -13,7 +14,16 @@ const App = () => {
   return (
     
       <div className="App">
-        <h1 className="Header">Characters</h1>
+         <Alert color="success">
+        <h4 className="alert-heading">Michael's Rick and Morty</h4>
+        <p>
+          These guys are cool but they are no POKEMON!!!!
+        </p>
+        <hr />
+        <p className="mb-0">
+         Weekend project will be to figure out how to double grab an api
+        </p>
+      </Alert>
         < RickMortyList />
       </div>
     );

@@ -18,11 +18,12 @@ useEffect(()=>{
         console.log(error)
     })
 },[])
+
 return(
     <Container>
         <Row>
-            {RickMorty.map (RickMortys=>(
-                <RickMortyCard RickMortys ={RickMortys} />
+            {RickMorty.map (Character=>(
+                <RickMortyCard Character ={Character} />
             ))}
             
         </Row>

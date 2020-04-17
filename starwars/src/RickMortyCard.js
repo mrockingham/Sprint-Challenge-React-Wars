@@ -3,17 +3,17 @@ import { Card, CardBody, CardHeader, CardText, Col, CardImg, Button } from "reac
 
 const RickMortyCard = props =>{
 
-    const {RickMortys} = props
+    const {Character} = props
 
     return(
-    <Col xs="6" md="4" xl="3">
+    <Col xs="6" md="4" xl="4">
         <Card>
-    <CardHeader>{RickMortys.name}</CardHeader> 
-                <CardImg top width="25%" src={RickMortys.image} alt="Card image cap" />
+    <CardHeader tag="h2">{Character.name}</CardHeader> 
+                <CardImg top width="25%" src={Character.image} alt="Card image cap" />
                 <CardBody>
-    <CardText>{RickMortys.status}</CardText>
-    <CardText>{RickMortys.gender}</CardText>
-    <Button color="warning">Hello!</Button>
+    <CardText>{Character.status}</CardText>
+    <CardText>{Character.gender}</CardText>
+    
                 </CardBody>
         </Card>
     </Col>
