@@ -1,4 +1,5 @@
 import React from 'react';
+import PokemonList from 'C:/Users/User/desktop/lambdaflex/Sprint-Challenge-React-Wars/starwars/src/PokemonList.js'
 import './App.css';
 import RickMortyList from './RickMortyList'
 import { Alert } from 'reactstrap';
